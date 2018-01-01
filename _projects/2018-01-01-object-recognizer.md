@@ -1,7 +1,7 @@
 ---
-layout: post
+layout: project
 title: "E-Commerce Object Recognizer"
-date: 2017-12-31
+date: 2018-01-01
 ---
 
 E-Commerce Object Recognizer
