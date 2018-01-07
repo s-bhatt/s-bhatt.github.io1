@@ -1,12 +1,12 @@
 ---
 layout: project
 title: "E-Commerce Object Recognizer"
-date: 2018-01-01
+date: 2018-01-06
 ---
 
-E-Commerce Object Recognizer
+E-Commerce Object Recognizer.
 
-[Jekyll](https://github.com/s-bhatt/upload)
+<!-- [Jekyll](https://github.com/s-bhatt/upload)
 
 A web service which helps people find the name of the products by just taking a photo with their cell phone.
 
@@ -31,4 +31,4 @@ comparison could be integrated to our system.
 
 We used google photos to download photos of our products.
 We also captured videos of our products and used ffmpeg tool
-Ffmpeg tool converts videos to jpg images
+Ffmpeg tool converts videos to jpg images -->
