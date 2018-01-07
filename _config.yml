@@ -3,4 +3,4 @@ title: Welcome to the Shivang’s homepage!
 name: Shivang Bhatt
 markdown: kramdown
 description: Feel free to bookmark this to keep an eye on my project updates
-permalink: /project/:year/:month/:day/:title
+permalink: /post/:year/:month/:day/:title
