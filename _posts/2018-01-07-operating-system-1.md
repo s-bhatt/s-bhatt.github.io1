@@ -4,7 +4,7 @@ title: "Designing an Operating System - I"
 date: 2018-01-07
 ---
 
-#Designing an Operating System - I
+# Designing an Operating System - I
 
 We (I along with two other super-talented blokes) designed an Operating System in three phases across the Fall of 2017. The three phases were:
 * Threads and Scheduling
@@ -13,17 +13,19 @@ We (I along with two other super-talented blokes) designed an Operating System i
 
 This writeup details out our first phase of implementation.
 
-##Threads and Scheduling
+## Threads and Scheduling
 
 In this phase we implemented user threads using the Linux pthread API. This required us to generate new execution contexts (threads) on pthread_create and to write a scheduler to switch between our various threads. Since we provided a multi-threaded environment, we also need to implemented pthread mutexes, mutual exclusion devices that keep a thread locked if it is waiting for a particular mutex. This assignment also helped us explore the mechanics and difficulties of scheduling tasks within an operating system.
 
 We built a library named "my_pthread_t.h" that contains implementations of the prototypes below:
 
 * `int my_pthread_create( my_pthread_t * thread, pthread_attr_t * attr, void *(*function)(void*), void * arg);`
+
 Creates a pthread that executes function. Attributes are ignored, arg is not.
 
 
 * `void my_pthread_yield();`
+
 Explicit call to the my_pthread_t scheduler requesting that the current context can be swapped out andanother can be scheduled if one is waiting.
 
  
